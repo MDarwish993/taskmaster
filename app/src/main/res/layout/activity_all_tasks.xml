@@ -35,15 +35,17 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="385dp"
-        android:layout_height="323dp"
+        android:layout_width="250dp"
+        android:layout_height="198dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57"
-        app:srcCompat="@drawable/pic2"
-        tools:srcCompat="@drawable/pic2" />
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/oip"
+        tools:srcCompat="@drawable/oip" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
