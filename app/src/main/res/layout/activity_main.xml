@@ -7,6 +7,32 @@
     tools:context=".activites.MainActivity">
 
     <Button
+        android:id="@+id/task2Button"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:text="task2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <Button
+        android:id="@+id/task3Button"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:text="task3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <Button
         android:id="@+id/AllTasksButton"
         android:layout_width="136dp"
         android:layout_height="42dp"
@@ -32,19 +58,20 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="338dp"
-        android:layout_height="295dp"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415"
-        app:srcCompat="@drawable/pic2"
-        tools:srcCompat="@drawable/pic2" />
+        app:layout_constraintVertical_bias="0.301"
+        app:srcCompat="@drawable/oip"
+        tools:srcCompat="@drawable/oip" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="108dp"
+        android:id="@+id/usernameTasksTextView"
+        android:layout_width="wrap_content"
         android:layout_height="31dp"
         android:text="My Tasks"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -66,5 +93,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/task1Button"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:text="task1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <ImageButton
+        android:id="@+id/toSettingImageButton"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165"
+        app:srcCompat="@drawable/__12226_transparent_android_settings_icon_png_settings_icon_blue"
+        tools:srcCompat="@drawable/__12226_transparent_android_settings_icon_png_settings_icon_blue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
