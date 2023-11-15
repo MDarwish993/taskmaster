@@ -9,4 +9,4 @@
 - also i create detail page which contain task title and some details. 
 
 ### Pictures:
-- ![Home page](Screenshots/home.jpg)
+- ![Home page](Screenshots/homePage.jpg)
